@@ -13,9 +13,10 @@ module.exports = {
         }
     },
     networks:{
-        wanchainTestnet: {
-            url: "https://gwan-ssl.wandevs.org:46891",
-            accounts: [process.env.PK],           
+        Testnet: {
+            accounts: [process.env.PK],
+            gasPrice: 2000000000,
+            url: "http://gwan-testnet.wandevs.org:36891",
         }
     }
 };

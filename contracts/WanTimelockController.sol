@@ -12,3 +12,5 @@ contract WanTimelockController is TimelockController {
 		_grantRole(ADMIN_ROLE, admin);
     }
 }
+
+
